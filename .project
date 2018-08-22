@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>company_web</name>
+	<name>长沙县安沙镇</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1527237279987</id>
+			<id>1533193757076</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
@@ -25,25 +25,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1529658663408</id>
-			<name></name>
-			<type>26</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-node_modules</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1529897105447</id>
-			<name></name>
-			<type>26</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-node_modules</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1530758058715</id>
+			<id>1533539965786</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
