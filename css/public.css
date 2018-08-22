@@ -41,13 +41,16 @@ p {
 	border: 0;
 	padding: 0;
 	font-style: normal;
+	font-family:"Microsoft YaHei";
 }
 
 a {
 	text-decoration: none;
-	border: none;
 	color: #272727;
-	-webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 ul li {
@@ -65,12 +68,20 @@ img {
 .fr {
 	float: right;
 }
-
-body,
-html {
-	background: #FFFFFF;
-	font-family: "Microsoft YaHei";
-	font-size: 14px;
+.w100{
+	width: 100%;
+}
+.w50{
+	width: 50%;
+}
+.w33{
+	width: 33.33%;
+}
+.w25{
+	width: 25%;
+}
+.w20{
+	width: 20%;
 }
 
 .clear {
@@ -124,9 +135,8 @@ html {
 .s24 {
 	font-size: 24px;
 }
-
-.s26 {
-	font-size: 26px;
+.s28 {
+	font-size: 28px;
 }
 
 .s30 {
@@ -140,145 +150,37 @@ html {
 .s40 {
 	font-size: 40px;
 }
-
+.s50 {
+	font-size: 50px;
+}
+.s60 {
+	font-size: 60px;
+}
+.s80 {
+	font-size: 80px;
+}
+.c0{
+	color: #0077f9;
+}
 .c1 {
 	color: #FFFFFF;
 }
-
-.c2 {
-	color: #272727;
+.c3{
+	color: #333333;
 }
-
-.c3 {
+.c4{
+	color: #444444;
+}
+.c6{
+	color: #666666;
+}
+.c8{
+	color: #888888;
+}
+.c9{
 	color: #999999;
 }
 
-.c4 {
-	color: #666666;
-}
-
-.c5 {
-	color: #89632b;
-}
-
-.c6 {
-	color: #F69540;
-}
-
-/*橙*/
-
-.c7 {
-	color: #45c08f;
-}
-
-/*绿*/
-
-.c8 {
-	color: #E50012;
-}
-
-/*红*/
-
-.c9 {
-	color: #CCCCCC;
-}
-
-/*灰*/
-
-.c10 {
-	color: #616161;
-}
-
-.c11 {
-	color: #5B5B5B;
-}
-
-.c12 {
-	color: #919191;
-}
-
-.c13 {
-	color: #CD3C3C;
-}
-
-.c14 {
-	color: #D4D4D4;
-}
-
-.c15 {
-	color: #666666;
-}
-
-.c16 {
-	color: #F92826;
-}
-
-.c17 {
-	color: #949494;
-}
-
-.c18 {
-	color: #24D523;
-}
-
-.wd {
-	width: 94%;
-	margin: 0 3%;
-	overflow: hidden;
-}
-
-.wb20 {
-	width: 20%;
-}
-
-.wb30 {
-	width: 30%;
-}
-
-.wb50 {
-	width: 50%;
-}
-
-.wb70 {
-	width: 70%;
-}
-
-.wb80 {
-	width: 80%;
-}
-
-.h10 {
-	height: 10px;
-}
-
-.h15 {
-	height: 15px;
-}
-
-.h20 {
-	height: 20px;
-}
-
-.h30 {
-	height: 30px;
-}
-
-.h45 {
-	height: 45px;
-}
-.h50 {
-	height: 50px;
-}
-.h60 {
-	height: 60px;
-}
-
-.h90 {
-	height: 90px;
-}
-.h120 {
-	height: 120px;
-}
 :-moz-placeholder {
 	/* Mozilla Firefox 4 to 18 */
 	color: #CCC;
@@ -297,11 +199,4 @@ textarea:-ms-input-placeholder {
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
 	color: #CCC;
-}
-.hidden-text2{
-	overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
 }

@@ -1,105 +1,688 @@
 /*media*/
-@media(min-width: 767px) {
-* {
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
-}
-.body-bg1, .body-bg{
-	background:none;
-}
-#iframe-wrap {
-    height: 100%;
-    overflow: visible;
-    position: relative;
 
-    z-index: 999;
+@media (max-width: 320px) {
+	.demand_div input {
+		width: 80%;
+	}
 }
-.mobile-width-2 {
-    height: 540px!important;
-    margin: 0 auto;
-   padding: 81px 25px 159px 17px;
-    width: 346px;
-    margin-top: 40px;
-    background: url(../images/bgiphone3.png) no-repeat;
-}
-#iframe {
-    height: 614px!important;
-    width:100%;
-    overflow:auto;
-    background: #FFFFFF;
-}
-#iframe1 {
-    height: 585px!important;
-    width:100%;
-    overflow:auto;
-    background: url(../images/bg.jpg) no-repeat;
-    background-size: 100% 100%;
-}
-.body-bg-1{
-	width: 300px;
-	height: 300px;
-}
-.dangjian_article-list{
-	width: auto;
-}
-.dangjian_index-bode-g ul li h3 {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-}
-.dangjian_weiyuanlist ul li img{
-	width: 95px;
-}
-.dangjian_index-bode-e{
-	margin: 0;
-}
-.dangjian_article-2{
-	     padding-left: 0; 
-    padding-right: 0; 
-}
-.dangjian_top-two p{
-	font-size: 14px;
-}
-.dangjian_top-two i{
-	margin-left: 5px;
-}
-html, body.body-bg{
-	background: none;
-	
-}
-body{
-	background: url(../images/beijing2.jpg) no-repeat;
-	z-index: -1;
-	background-size: 100% 120%;
-}
-.nav-top{
-	display: none;
-	z-index: 2000;
-	position: relative;
-	width: 80px;
-	background: #E60012;
-	color: #FFFFFF;
-	top: 0px;
-	right:-231px;
-    padding: 0;
-}
-.guaikuang-list{
-	    width: 92%;
-}
-.zhineng-list{
-	width: auto;
-	margin: 0 5px;
-	padding-left: 5px; 
-    padding-right: 5px; 
-}
-.gongkai1-list p.topp {
-    font-size: 12px;
-}
-.peolist td {
 
-    font-size: 10px;
-   
+@media(max-width: 767px) {
+	.top_div p {
+		display: none;
+	}
+	.top_div .row div {
+		float: left;
+	}
+	.nav>li:after {
+		bottom: 0;
+	}
+	.logo {
+		width: 70%;
+	}
+	.logo img {
+		width: 100%;
+		margin-left: 10px;
+	}
+	nav.navbar.bootsnav {
+		margin-top: 15px;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	.index_website ul li h5 {
+		font-size: 18px;
+	}
+	.index_case_nr p {
+		font-size: 14px;
+		margin-top: 20%;
+	}
+	.w20 {
+		width: 45%;
+	}
+	.index_brand_div {
+		padding: 0 0 30px 0;
+	}
+	.index_brand_img img {
+		width: 100%;
+	}
+	.index_solution_text h3 {
+		font-weight: normal;
+		font-size: 14px;
+		padding-top: 10px;
+	}
+	.index_solution_div {
+		margin-top: 15px;
+	}
+	.index_solution_div .row {
+		margin: 0;
+	}
+	.index_solution_text p {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+	}
+	.index_more_div {
+		padding: 40px 0;
+		text-align: center;
+	}
+	.index_about_div {
+		text-align: center;
+	}
+	.index_about_div h2 {
+		font-size: 18px;
+	}
+	.index_about_logo {
+		display: none;
+	}
+	.index_about_xn {
+		margin-top: 15px;
+	}
+	.index_about_xn p {
+		font-size: 12px;
+	}
+	.index_news_bg {
+		padding-top: 20px;
+	}
+	.index_news_right {
+		margin-top: 10px;
+		margin-bottom: 20px;
+		padding-top: 1px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.solutions_details-right {
+		background: none;
+	}
+	.solutions_details-right-back {
+		background: #ffffff;
+		padding: 15px 15px 15px 15px;
+		margin-top: 0px;
+	}
+
+	.friend_links {
+		padding: 20px 15px;
+	}
+	.footer_logo {
+		display: none;
+	}
+	.foot_infor {
+		font-size: 12px;
+		padding-top: 10px;
+	}
+	.foot_icon {
+		text-align: center;
+		padding-top: 20px;
+	}
+	.index_bottom_nav,
+	.index_bottom {
+		text-align: center;
+	}
+	.website_banner,
+	.weixin_banner,
+	.website_details_banner,
+	.weixin_bannertwo,
+	.anli_details,
+	.app_banner,
+	.news_details,
+	.solutions,
+	.weixin_service-backimg2,
+	.mobile_service_banner {
+		background-size: 150% 100%;
+	}
+	.all_banner_style {
+		height: 150px;
+	}
+	.website_menu_left {
+		padding-left: 15px;
+	}
+	.website_menu_right {
+		padding-right: 15px;
+	}
+	.website_build {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.hosting_div .hosting_3 {
+		border-bottom: 1px solid #E8E8E8;
+		border-right: none;
+	}
+	.anli_details3 div {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.anli_details3_imgtwo div {
+		width: 60%;
+		margin: 0 auto;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.provide_div {
+		margin-top: 0px;
+		padding-bottom: 0;
+	}
+	.provide_pic img {
+		width: 100%;
+	}
+	.website_service {
+		padding-top: 30px;
+	}
+	.website_service_list {
+		margin: 30px 0;
+	}
+	.col-wdf-5 {
+		width: 50%;
+	}
+	.website_menu_six,
+	.website_menu_two {
+		width: 100%;
+	}
+	.website_htgl {
+		margin-top: 20px;
+	}
+	.website_htgl_left {
+		padding-left: 15px;
+	}
+	.website_htgl_pic {
+		margin-top: 20px;
+		padding-right: 15px;
+	}
+	.website_details_menu {
+		padding: 20px 0 30px 0;
+	}
+	.demand_left {
+		padding-left: 15px;
+		margin-top: 15px;
+	}
+	.demand_right {
+		padding-right: 15px;
+		margin-top: 15px;
+	}
+	.app_div {
+		padding: 30px 0;
+	}
+	.app_fl,
+	.app_fr {
+		padding: 0 30px;
+	}
+	.app_fr_img {
+		display: none;
+	}
+	.app_fl p span {
+		width: 85px;
+	}
+	.anli_details_dime1 {
+		width: 100%;
+		height: 90px;
+	}
+	.anli_details_dime3{
+		float: left;
+		margin: 0;
+	}
+	.anli_details_build {
+		margin-top: 0px;
+		margin-right: 0px;
+	}
+	.anli_details_head{
+		width: 92%;
+		margin: 0 auto;
+	}
+	.anli_details_p {
+		padding-top: 20px;
+		margin-bottom: 7px;
+		margin-top: 0;
+	}
+	.anli_details_dime-b p{
+		font-size: 12px;
+	}
+	.anli_details3 {
+		background: rgba(0, 0, 0, 0.04);
+		padding: 15px 0 0 0;
+	}
+	.anli_details_p1 {
+		margin: 20px 20px 26px 15px;
+	}
+	.search {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		margin-bottom: 5px;
+		width: 85%;
+	}
+	.search-input {
+		width: 100%;
+		height: 36px;
+		border-radius: 15px;
+		background: rgba(0, 0, 0, 0.04);
+	}
+	.news_details_info {
+		margin-top: -45px;
+	}
+	.news_details_title h3 {
+		font-size: 18px;
+	}
+	.bread_nav_1 {
+		float: none;
+	}
+	.news_details_info_date {
+		float: none;
+		margin-left: -15px;
+	}
+	.icon-one {
+		float: right;
+		margin-right: 10px;
+		margin-top: -39px;
+	}
+	.col-xsl-7 {
+		width: 20%;
+		float: left;
+	}
+	.anli_list_herf_aherf {
+		float: left;
+		width: 100%;
+	}
+	.anli_list_herf_aherf1 {
+		float: right;
+		width: 100%;
+	}
+	.friend_anli_links a {
+		display: block;
+		float: left;
+		color: rgba(0, 0, 0, 0.8);
+		margin: 5px 5px 5px 0;
+	}
+	.friend_anli_links am{
+		margin: 15px 15px 15px 0;
+	}
+	.anli_img_list {
+		overflow: hidden;
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+	.anli_img_list ul li{
+		width: 92%;
+		margin: 15px 4%;
+	}
+	.pagination1-lg>li>a,
+	.pagination1-lg>li>span {
+		padding: 10px 7px;
+		font-size: 15px;
+		line-height: 1.3333333;
+	}
+	.news_list_href {
+		margin-bottom: 20px;
+		width: 120px
+	}
+	.news_list_tab {
+		margin: 0 auto;
+		margin-top: 20px;
+		width: 280px;
+	}
+	.news_cent_list ul li {
+		width: 100%;
+		margin: 5px auto;
+	}
+	.news_cent_list_date {
+		width: 40px;
+		height: 73px;
+		float: left;
+		margin-top: 50px;
+		margin-left: 17px;
+	}
+	.news_cent_list_info {
+		width: 247px;
+		float: right;
+		margin: 35px auto;
+	}
+	.m_weixin_div_img {
+		margin: 0 auto 10px auto;
+		width: 70%;
+		float: none;
+	}
+	.m_weixin_div_img1 img{
+		width: 100%;
+	}
+	.mobile_service_list {
+		width: 100%;
+	}
+	.col-wxkf-5 {
+		overflow: hidden;
+		position: relative;
+		width: 215px;
+		left: 50%;
+		margin-left: -107.5px;
+	}
+	.weixin_service-h {
+		margin-top: 0;
+		padding-top: 10px;
+	}
+	.weixin_service-footer div {
+		margin: 10px auto;
+	}
+	.weixin_service-footer-imglist ul {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.weixin_service p {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.weixin_img_list-img {
+		margin: 10px auto;
+		width: 100%;
+	}
+	.wsc_label ul li {
+		width: 50%;
+	}
+	.wsc_label a {
+		width: 100%;
+	}
+	.gy {
+		width: 100%;
+	}
+	.tabs_item {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.tabs_item ul {
+		margin-top: 0;
+	}
+	.tabs_item-i {
+		width: 100%;
+	}
+	.tabs_item li {
+		margin: 20px auto;
+		width: 25%;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	#wsc_txt1,
+	#wsc_txt2,
+	#wsc_txt3,
+	#wsc_txt4 {
+		height: 100%;
+	}
+	#wsc_wtxt1,
+	#wsc_wtxt2,
+	#wsc_wtxt3,
+	#wsc_wtxt4 {
+		height: 260px;
+	}
+	.wsc_label ul li:hover .anli_img_list_line {
+		width: 50%;
+		margin-left: 52px;
+	}
+	.tabs_item1 {
+		margin: 5px auto;
+		width: auto;
+	}
+	.tabs_item1 li {
+		width: 50%;
+	}
+	.tabs_item1 li p{
+		font-size: 14px;
+	}
+	.tabs_item1 ul {
+		margin: 10px 10px 10px 10px;
+		overflow: hidden;
+	}
+	.weixin_service-backimg3 {
+		margin-top: 10px;
+		margin-left: 50px;
+		width: 80%;
+	}
+	.weixin_service-backimg3-href{
+		margin-top: 0;
+	}
+	.weixin_service-backimg {
+		height: auto;
+	}
+	.weixin_service-backimg2 {
+		height: 750px;
+	}
+	.weixin_img_list ul {
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+	}
+	.weixin_img_list ul li {
+		float: none;
+		width: 100%;
+		margin: 15px auto;
+	}
+	.weixin_img_list {
+		margin: 10px 20px 10px 20px;
+	}
+	.s24 {
+		font-size: 16px;
+	}
+	.weixin_service-footer-imglist ul li img {
+		width: 100px;
+		height: 100px;
+	}
+	.weixin_service-footer-imglist ul li {
+		margin: 5px auto;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.weixin_service-footer-imglist {
+		margin-top: 0px;
+	}
+	.weixin_bannertwo{
+		height: auto;
+	}
+	/* .weixin_service-footer-imglist ul {
+		height: 70px;
+		margin-left: 30px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+	} */
+	.weixin_service-footer-imglist ul li p {
+		margin-top: 0px;
+	}
+	.solutions_details-tab-list-a {
+		float: none;
+	}
+	.solutions_details-right-two {
+		margin: 10px auto;
+		width: auto;
+	}
+	.index_news_ul{
+		padding: 0 0 20px;
+	}
+	.solutions-img-list-time{
+		display: none;
+	}
+	.solutions_details-tab-list,.solutions_details-news-right{
+		padding-left: 15px;
+	}
 }
+
+@media(min-width: 768px) and (max-width: 1199px) {
+	.nav>li:after {
+		bottom: 0;
+	}
+	.logo {
+		width: 25%;
+	}
+	.logo img {
+		width: 100%;
+		margin-left: 10px;
+	}
+	.w20 {
+		width: 45%;
+	}
+	.index_about_div {
+		text-align: center;
+	}
+	.index_about_logo {
+		display: none;
+	}
+	.index_news_bg {
+		padding-top: 40px;
+	}
+	.index_news_ul li {
+		padding: 20px 0;
+	}
+	.friend_links {
+		padding: 20px 15px;
+	}
+	.footer_logo {
+		display: none;
+	}
+	.foot_infor,
+	.foot_icon {
+		width: 33%;
+	}
+	.weixin_banner,
+	.weixin_bannertwo,
+	.anli_details,
+	.news_details,
+	.weixin_service-backimg2,
+	.website_banner,
+	.website_details_banner,
+	.app_banner,
+	.mobile_service_banner {
+		background-size: 150% 100%;
+	}
+	.all_banner_style {
+		height: 350px;
+	}
+	.website_menu_left {
+		padding-left: 15px;
+	}
+	.website_menu_right {
+		padding-right: 15px;
+	}
+	.website_htgl_pic {
+		padding-right: 15px;
+	}
+	.demand_left {
+		padding-left: 15px;
+		margin-top: 15px;
+	}
+	.demand_right {
+		padding-right: 15px;
+		margin-top: 15px;
+	}
+	.website_htgl_left {
+		padding-left: 15px;
+	}
+	.app_fl,
+	.app_fr {
+		padding: 0 30px;
+	}
+	.app_fr_img {
+		display: none;
+	}
+	.anli_details3 div {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.anli_img_list ul li {
+		width: 92%;
+		margin: 15px 4%;
+	}
+	.anli_list_herf_aherf1 {
+		float: left;
+		width: 800px;
+	}
+	.news_cent_list ul li {
+		float: left;
+		width: 100%;
+		height: 180px;
+		position: relative;
+		background: #FFFFFF;
+		margin: 20px auto;
+		overflow: hidden;
+	}
+	.news_cent_list_info {
+		float: right;
+		margin-top: 50px;
+		margin-right: 30px;
+		width: 80%;
+	}
+	.news_cent_list_hr {
+		margin-left: 0px;
+	}
+	.weixin_img_list {
+		margin-left: 100px;
+	}
+	.weixin_img_list-img {
+		margin-bottom: 5px;
+	}
+	.wsc_label a {
+		width: 219px;
+	}
+	.tabs_item1 {
+		margin-left: 50px;
+	}
+	.weixin_service-backimg3 {
+		margin-left: 7px;
+	}
+	.tabs_item1 {
+		width: 410px;
+		margin-left: 30px;
+	}
+	.weixin_service-backimg2 {
+		height: 600px;
+	}
+	.website_service {
+		padding-top: 0px;
+	}
+	.weixin_img_list {
+		margin-left: 50px;
+		margin-bottom: 10px;
+	}
+	.weixin_img_list ul {
+		margin-left: 10px;
+	}
+	.weixin_service-footer-imglist ul {
+		height: 250px;
+		margin-left: 48px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+	}
+	.weixin_service-footer-imglist ul li {
+		margin-top: 0px;
+		margin-bottom: 5px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.weixin_service-footer-imglist {
+		margin-top: 0px;
+	}
+	.weixin_img_list ul li {
+		width: 303px;
+	}
+	.weixin_img_list ul {
+		margin-left: 0px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.index_about_div {
+		border-right: 1px solid #E8E8E8;
+		position: relative;
+		padding-left: 0;
+	}
+	.index_about_any {
+		position: absolute;
+		width: 5px;
+		height: 40px;
+		background: #0077F9;
+		right: 0;
+		top: 0;
+	}
+	.index_news_left {
+		padding-left: 0;
+	}
+	.index_news_right {
+		padding-right: 0;
+		margin-top: 20px;
+	}
 }
